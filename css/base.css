@@ -1,0 +1,17 @@
+/*
+* @Author: cyw
+* @Date:   2018-08-03 17:18:26
+* @Last Modified by:   cyw
+* @Last Modified time: 2018-08-03 18:07:35
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}

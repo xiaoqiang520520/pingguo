@@ -1,0 +1,481 @@
+@import url(base.css);
+/**{*/
+    /*text-decoration: none;*/
+/*}*/
+header{
+    width:100%;
+    height:40px;
+    background:#444444;
+}
+header main{
+    /*width: 976px;*/
+    height: 40px;
+    background:#444444;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: #a8a8aa;
+}
+nav{
+    width:100%;
+    height:40px;
+    background:#444444;
+    font-size: 11px;
+    color: #fff;
+}
+nav ul{
+    /*width:976px;*/
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    margin: 0 auto;
+}
+nav ul li a{
+    display: block;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+nav ul li a:hover{
+    color: #ababab;
+}
+section{
+    width:100%;
+    height:1764px ;
+    /*background:blue;*/
+    /*display: flex;*/
+    /*align-content: space-between;*/
+}
+
+.iphone{
+    width: 100%;
+    height: 580px;
+    background: #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+.iphone a{
+    display: block;
+    width: 100%;
+    height: 580px;
+}
+ .iphone a h2{
+    width: 100%;
+
+
+    text-align: center;
+     color:#111;
+     text-align: center;
+
+
+
+}
+
+.iphone a h3{
+    font-weight: normal;
+    width: 100%;
+
+
+    text-align: center;
+
+    color:#111;
+}
+.ipad{
+    margin-top: 12px;
+
+}
+.macbook{
+    margin-top: 12px;
+
+}
+.hl{
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    background: #fafafa;
+}
+.macbook a h2 .mh{
+    color: white;
+}
+
+.pic{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -32px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    /*height: 337px;*/
+    background:#fafafa;
+    /*background: url(../img/iphone_x_large.jpg) no-repeat center;*/
+    /*background-size: 1068px 337px;*/
+}
+.macbook{
+    background:#131218;
+}
+
+/*.iphone a img{*/
+    /*display: block;*/
+    /*width:1068px;*/
+    /*height: 337px;*/
+
+/*}*/
+.bag{
+    width: 100%;
+    /*height: 100%;*/
+    /*background: #a8a8aa;*/
+
+}
+.bag ul{
+    width: 100%;
+
+}
+.bag ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*background:url(../img/shop_for_college_large.jpg) no-repeat center;*/
+    /*-webkit-background-size: ;*/
+    /*background-size:565px 592px;*/
+    overflow: hidden;
+}
+.bag ul li{
+    display: block;
+    /*width: 50%;*/
+    height: 592px;
+    /*background: yellow;*/
+    /*border-bottom: 12px solid white;*/
+    /*border-left: 12px solid white;*/
+    /*border-right: 6px solid white;*/
+    float:left;
+    box-sizing:border-box;
+
+
+}
+/*.bag ul li:nth-child(2n){*/
+    /*border-left: 6px solid white;*/
+    /*border-right: 12px solid white;*/
+
+/*}*/
+.bag ul li a h2{
+    width: 100%;
+    /*height: 48px;*/
+    /*font-size: 32px;*/
+    /*line-height: 48px;*/
+    color: #111111;
+    /*margin-top: 47px;*/
+    text-align: center;
+}
+.bag ul li a span{
+    display: block;
+
+
+
+    color: #111;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width:1200px){
+     header main{
+        width: 976px;
+    }
+    nav ul{
+        width:976px ;
+    }
+    .big{
+        display: block;
+    }
+    .small{
+        display: none;
+    }
+    .iphone a h2{
+        /*width: 1349px;*/
+        height: 62px;
+        font-size: 40px;
+        text-align: center;
+        line-height: 62px;
+        margin-top: 115px;
+        color: #111111;
+    }
+    .iphone a h3{
+
+
+        height: 43px;
+        font-size: 22px;
+
+        line-height: 43px;
+
+    }
+    .pic{
+
+
+        width: 1068px;
+        height: 337px;
+
+
+        background: url(../img/iphone_x_large.jpg) no-repeat center;
+        background-size: 1068px 337px;
+    }
+    .pi{
+        width: 1068px;
+        height: 337px;
+
+
+        background: url(../img/ipad_large.jpg) no-repeat center;
+        background-size: 1068px 337px;
+    }
+    .pm{
+        width: 1068px;
+        height: 337px;
+
+
+        background: url(../img/macbook_pro_performance_large.jpg) no-repeat center;
+        background-size: 1068px 337px;
+    }
+    .bag ul li a h2{
+
+        height: 37px;
+        font-size: 27px;
+        line-height: 37px;
+
+        margin-top: 24px;
+
+    }
+    .bag ul li a span{
+
+        height: 34px;
+        font-size: 18px;
+        line-height: 34px;
+
+
+
+    }
+    .bag ul li a{
+
+        background:url(../img/shop_for_college_large.jpg) no-repeat center;
+
+    }
+    .bag ul li{
+        /*display: block;*/
+        width: 50%;
+        height: 592px;
+        /*background: yellow;*/
+        border-bottom: 12px solid white;
+        border-left: 12px solid white;
+        border-right: 6px solid white;
+        /*float:left;*/
+        /*box-sizing:border-box;*/
+
+
+    }
+    .bag ul li:nth-child(2n){
+        border-left: 6px solid white;
+        border-right: 12px solid white;
+
+    }
+}
+@media screen and (max-width:1200px){
+     header main{
+        padding-right: 24px;
+    }
+    nav ul{
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .big{
+        display: block;
+    }
+    .small{
+        display: none;
+    }
+    .iphone a h2{
+
+        height: 49px;
+        font-size:31px;
+
+        line-height: 49px;
+        margin-top: 40px;
+
+    }
+
+    .iphone a h3{
+
+
+        height: 38px;
+        font-size: 19px;
+
+        line-height: 38px;
+
+    }
+    .pic{
+
+
+        width: 736px;
+        height: 336px;
+
+
+        background: url(../img/iphone_x_medium.jpg) no-repeat center;
+        background-size: 736px 336px;
+    }
+    .pi{
+        width: 736px;
+        height: 336px;
+
+
+        background: url(../img/ipad_medium.jpg) no-repeat center;
+        background-size: 736px 336px;
+    }
+    .pm{
+        width: 736px;
+        height: 336px;
+
+
+        background: url(../img/macbook_pro_performance_medium.jpg) no-repeat center;
+        background-size: 736px 336px;
+    }
+    .bag ul li a h2{
+
+        height: 48px;
+        font-size: 32px;
+        line-height: 48px;
+
+        margin-top: 47px;
+
+    }
+    .bag ul li a span{
+
+        height: 27px;
+        font-size: 15px;
+        line-height: 27px;
+
+
+
+    }
+    .bag ul li a{
+
+        background:url(../img/shop_for_college_medium.jpg) no-repeat center;
+
+    }
+    .bag ul li{
+
+        width: 50%;
+        /*height: 592px;*/
+        /*background: yellow;*/
+        border-bottom: 12px solid white;
+        border-left: 12px solid white;
+        border-right: 6px solid white;
+        /*float:left;*/
+        /*box-sizing:border-box;*/
+
+
+    }
+    .bag ul li:nth-child(2n){
+        border-left: 6px solid white;
+        border-right: 12px solid white;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    .iphone a h2{
+
+        height: 37px;
+        font-size: 23px;
+
+        line-height: 37px;
+        margin-top: 27px;
+
+    }
+    .iphone a h3{
+
+
+        height: 30px;
+        font-size: 18px;
+
+        line-height: 30px;
+
+    }
+    .pic{
+
+
+        width: 320px;
+        height: 353px;
+
+
+        background: url(../img/iphone_x_small.jpg) no-repeat center;
+        background-size: 320px 353px;
+    }
+    .pi{
+        width: 320px;
+        height: 353px;
+
+
+        background: url(../img/ipad_small.jpg) no-repeat center;
+        background-size: 320px 353px;
+    }
+    .pm{
+        width: 320px;
+        height: 353px;
+
+
+        background: url(../img/macbook_pro_performance_small.jpg) no-repeat center;
+        background-size: 320px 353px;
+    }
+    .bag ul li a h2{
+
+        height: 37px;
+        font-size:27px;
+        line-height: 37px;
+
+        margin-top: 36px;
+
+    }
+    .bag ul li a span{
+
+        height: 27px;
+        font-size: 17px;
+        line-height: 27px;
+
+
+
+    }
+    .bag ul li a{
+
+        background:url(../img/shop_for_college_small.jpg) no-repeat center;
+
+    }
+    .bag ul li{
+
+        width: 100%;
+        /*height: 592px;*/
+
+        /*border-bottom: 12px solid white;*/
+        border-left: 0;
+        border-right: 0;
+        /*float:left;*/
+        /*box-sizing:border-box;*/
+
+
+    }
+    .bag ul li:nth-child(2n){
+        border-left: 0;
+        border-right: 0;
+
+    }
+
+}
+
